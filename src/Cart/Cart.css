@@ -1,0 +1,108 @@
+.cart {
+  padding: 15px 42px 10px 0;
+  border-top: 1px solid #b9b9b9;
+  border-bottom: 1px solid #b9b9b9;
+  width: 71%;
+  float: right;
+  position: relative;
+}
+
+.cart__line {
+  position: relative;
+}
+.line {
+  position: absolute;
+  width: 1px;
+  background: rgb(73, 73, 73);
+  height: 97%;
+  opacity: 50%;
+}
+
+.cart__color {
+  position: absolute;
+  height: 65%;
+  z-index: 0;
+  opacity: 40%;
+  border-radius: 0px 3px 3px 0px;
+}
+
+.cart__booking-color {
+  width: 78%;
+  background: #3cb305;
+  height: 23px;
+}
+
+.cart__tours-color {
+  width: 20%;
+  background: #30b6ee;
+  height: 23px;
+}
+
+.cart__hotels-color {
+  width: 13.5%;
+  background: #30b6ee;
+  height: 23px;
+}
+
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: relative;
+}
+
+.count {
+  font-family: Arial;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 15px;
+}
+
+.total {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+  color: #333;
+  padding-top: 8px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-left: 29%;
+  padding-right: 42px;
+}
+
+.section::after {
+  content: '';
+  display: block;
+  width: 100%;
+  clear: both;
+}
+
+.services {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  padding: 0 30px 5px 0;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 15px;
+  color: #333;
+}
+
+.booking {
+  font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  padding: 5px 7px;
+}

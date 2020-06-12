@@ -1,0 +1,117 @@
+.comment {
+  margin: 15px 0 20px 0;
+}
+
+.comment__userInfo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.comment__userName {
+  color: #333;
+  margin-right: 10px;
+  font-family: Arial;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 19px;
+}
+
+.comment__userDate {
+  color: #808080;
+  font-size: 11px;
+  line-height: 19px;
+}
+
+.comment__text {
+  box-shadow: 0px 4px 10px rgba(128, 128, 128, 0.1);
+  border: 1px solid #C4CBCF;
+  position: relative;
+  background: #F2FBFF;
+  margin: 17px 0px 0px 0px;
+  padding: 15px 20px;
+  padding: 15px 20px;
+  word-wrap: break-word;
+
+  font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  
+}
+
+.comment__text::before {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 0;
+  left: 22px;
+  top: -11px;
+  border: 5px solid;
+  border-color: transparent transparent lightgray lightgray;
+}
+
+.comment__text::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 0;
+  left: 23px;
+  top: -8px;
+  border: 6px solid;
+  border-color: transparent transparent aliceblue aliceblue;
+}
+
+.textForm {
+  margin-top: 50px;
+  background: #fff;
+  border: 1px solid #707070;
+  -webkit-box-shadow: 0px 0px 1px 1px #b6b6b6;
+          box-shadow: 0px 0px 1px 1px #b6b6b6;
+  color: #000;
+  height: 65px;
+  width: 100%;
+  outline: none;
+  padding: 5px;
+  resize: none;
+}
+
+.buttonSend {
+  width: 57%;
+  height: 40px;
+  margin: 20px auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  background: #fdd639;
+  border-radius: 25px;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  cursor: pointer;
+  border: none;
+  outline: none;
+  padding: 10px 15px;
+
+  font-family: PT Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 21px;
+  color: #333333;
+}
+
+.buttonSend:active {
+  background: #d1b131;
+}
+
+.pre {
+  white-space: pre-wrap;
+}
